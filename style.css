@@ -1,0 +1,75 @@
+:root{
+    --cor-de-fundo-primaria:#3d1139;
+    --cor-de-fundo-secundaria:#694c82;
+    --fonte-principal: 'Emilys Candy';
+    --fonte-secundaria: 'IBM Plex Sans';
+}
+
+body{
+    background-image: linear-gradient(45deg, var(--cor-de-fundo-primaria) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--cor-de-fundo-primaria) 25%,transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--cor-de-fundo-primaria) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--cor-de-fundo-primaria) 75%);
+    background-size: 150px 150px;
+    background-color: var(--cor-de-fundo-secundaria);
+}
+
+.principal{
+    margin-top: 3em;
+}
+.titulo__texto{
+    font-family: var(--fonte-principal);
+    font-size: 2.50rem;
+    text-align: center;
+    color: yellow;
+    background-image: url(donut-rosa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2em 0;
+}
+.caixaDeTexto{
+    border: #FFA33C solid 2px;
+    background-color: #3d1139ee;
+    font-family: var(--fonte-secundaria);
+    color: white;
+    border-radius: 12px;
+    padding: 0.20em;
+}
+.titulo{
+    font-size: 1.50rem;
+    margin: 0.75em 0 0.25em 0.50em;
+}
+.texto{
+    font-size: 1.10rem;
+    margin-bottom: 0.25em;
+    width: 100%;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 3em 0;
+}
+.conteudo__rosquinhas{
+    display: grid;
+    grid-template-columns: 58% 42%;
+    align-items: center;
+    gap: 2em;
+}
+.conteudo__ultimo{
+    text-align: center;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+}
+.katakuri__primeiro{
+    margin-top: 2.30em;
+}
+.katakuri__segundo{
+   padding-top: 3em;
+}
+.katakuri__terceiro{
+    height: 100%;
+}
+.rodape{
+    flex-shrink: 0;
+}
